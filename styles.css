@@ -34,7 +34,7 @@ body{
         "myProjectsContainer"       
     ;
     grid-gap: 0;
-    width: 700px;
+    width: 100%;
     min-height: 100vh;
     background-image: radial-gradient(circle, #101d42 0%, #0d1317 100%);
     border-radius: 30px 30px 30px 30px;
