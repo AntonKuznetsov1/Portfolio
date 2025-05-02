@@ -5,44 +5,43 @@ body{
     background-repeat: no-repeat;
     margin: 0;
 }
-@media (min-width: 750px) {
-    .container{
-        display: grid;
-        grid-template-areas: 
-            "title title title title title"
-            "informationContainer informationContainer aboutContainer aboutContainer aboutContainer"
-            "informationContainer informationContainer aboutContainer aboutContainer aboutContainer"
-            "contactsContainer contactsContainer contactsContainer contactsContainer contactsContainer"
-            "myProjectsContainer myProjectsContainer myProjectsContainer myProjectsContainer myProjectsContainer"
-        ;
-        grid-gap: 0;
-        width: 700px;
-        min-height: 100vh;
-        background-image: radial-gradient(circle, #101d42 0%, #0d1317 100%);
-        border-radius: 30px 30px 30px 30px;
-        border: solid black 5px;
-        color: #89d2dc;
-        font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 750px) {.container{
+    display: grid;
+    grid-template-areas: 
+        "title title title title title"
+        "informationContainer informationContainer aboutContainer aboutContainer aboutContainer"
+        "informationContainer informationContainer aboutContainer aboutContainer aboutContainer"
+        "contactsContainer contactsContainer contactsContainer contactsContainer contactsContainer"
+        "myProjectsContainer myProjectsContainer myProjectsContainer myProjectsContainer myProjectsContainer"
+    ;
+    grid-gap: 0;
+    width: 700px;
+    min-height: 100vh;
+    background-image: radial-gradient(circle, #101d42 0%, #0d1317 100%);
+    border-radius: 30px 30px 30px 30px;
+    border: solid black 5px;
+    color: #89d2dc;
+    font-family: Arial, Helvetica, sans-serif;
 }}
-@media (max-width: 750px) {
-    .container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0;
-        width: 100%;
-        min-width: 100%;
-        max-width: 100%;
-        min-height: 100vh;
-        background-image: radial-gradient(circle, #101d42 0%, #0d1317 100%);
-        border-radius: 30px 30px 30px 30px;
-        border: solid black 5px;
-        color: #89d2dc;
-        font-family: Arial, Helvetica, sans-serif;}
-    .flexContainerMain{
-        width: 100vh;
-        min-width: 100vh;
-        max-width: 100vh;
-    }
+@media (max-width: 750px) {.container{
+    display: grid;
+    grid-template-areas: 
+        "title"
+        "informationContainer"
+        "aboutContainer"
+        "aboutContainer"
+        "contactsContainer"
+        "myProjectsContainer"       
+    ;
+    grid-gap: 0;
+    width: 700px;
+    min-height: 100vh;
+    background-image: radial-gradient(circle, #101d42 0%, #0d1317 100%);
+    border-radius: 30px 30px 30px 30px;
+    border: solid black 5px;
+    color: #89d2dc;
+    font-family: Arial, Helvetica, sans-serif;
+}
 }
 .item{
     background-color: #1a1a2e;
