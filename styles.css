@@ -114,6 +114,7 @@ body{
 a{  
     color: #1f50f1;
     padding-left: 30px;
+    display: block;
 }
 a:hover {
     color: #00aaff;
