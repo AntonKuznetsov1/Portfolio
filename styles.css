@@ -115,6 +115,7 @@ a{
     color: #1f50f1;
     padding-left: 30px;
     display: block;
+    padding-bottom: 5px;
 }
 a:hover {
     color: #00aaff;
